@@ -10,7 +10,7 @@ from langchain.chains.conversation.prompt import ENTITY_MEMORY_CONVERSATION_TEMP
 from langchain.llms import OpenAI
 from langchain.prompts import PromptTemplate
 from transformers import AutoTokenizer, AutoModel
-import os; os.environ["OPENAI_API_KEY"] = "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"
+import os; os.environ["OPENAI_API_KEY"] = "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"
 
 faiss_model = "sentence-transformers/all-MiniLM-L6-v2"
 tokenizer = AutoTokenizer.from_pretrained(faiss_model)
