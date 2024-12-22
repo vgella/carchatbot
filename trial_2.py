@@ -98,8 +98,8 @@ with st.sidebar.expander("🛠️ ", expanded=False):
     K = st.number_input(' (#)Summary of prompts to consider', min_value=3, max_value=1000)
 
 # Set up the Streamlit app layout
-st.title("🤖 Car Dealership Chatbot with Memory 🧠")
-st.subheader("Powered by 🦜 LangChain + OpenAI + Streamlit")
+st.title("Car Dealership Chatbot")
+st.subheader("Powered by LangChain + OpenAI + Streamlit")
 
 # Ask the user to enter their OpenAI API key
 from langchain.prompts import PromptTemplate
