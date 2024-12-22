@@ -1,7 +1,7 @@
 import streamlit as st
 import faiss
 import torch
-from langchain_openai import ChatOpenAI
+from langchain_community.chat_models import ChatOpenAI
 import numpy as np
 import json
 from langchain.chains import ConversationChain
