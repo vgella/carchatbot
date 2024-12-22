@@ -125,6 +125,7 @@ CAR_TEMPLATE = PromptTemplate(
 
 
 openai_api_key=st.secrets["OPENAI_API_KEY"]
+print(openai_api_key)
 if True:
     # Create an OpenAI instance
     llm = ChatOpenAI(temperature=0,
