@@ -94,7 +94,7 @@ with st.sidebar.expander("🛠️ ", expanded=False):
     if st.checkbox("Preview memory buffer"):
         with st.expander("Bufffer-Store", expanded=False):
             st.session_state.entity_memory.buffer
-    MODEL = st.selectbox(label='Model', options=['gpt-3.5-turbo', 'gpt-4o-mini', 'gpt-4o'])
+    MODEL = st.selectbox(label='Model', options=['gpt-4o-mini','gpt-3.5-turbo', 'gpt-4o'])
     K = st.number_input(' (#)Summary of prompts to consider', min_value=3, max_value=1000)
 
 # Set up the Streamlit app layout
@@ -107,8 +107,7 @@ from langchain.prompts import PromptTemplate
 # Define the custom ENTITY_MEMORY_CONVERSATION_TEMPLATE
 CAR_TEMPLATE = PromptTemplate(
     template="""
-    You are a helpful assistant for a car dealership. Use the context provided to answer questions, remember past interactions, and optimize for actionable results. Consider modern advertising methods to provide responses that are concise, retain the viewer's attention, and convert leads. Optimize for conciseness; the user is the average american and will lose attention with every additional word. response's should optimize user engagement and provide meaningful information. After each response, include a list of features of the car that the user might be interested in based on the conversation so far (this should be formatted like a python list and only include 1 to 3 word feature descriptions per entry). Keep conversation limited to these purposes, but feel free to ask additional questions that provide insight into the features the user is looking for. The features should not be formatted in markdown, and only should appear as a list such as [towing capacity, mileage, additional seating]. The list should always be presented in this format explicitly, a comma seperated list with brackets. This list of features should be specific to the user's responses and will provide insight into our backend, indicating which features to display for cars viewed. Subtly suggest mazda occasionally where it is natural, break away from this if and when it seems conversationally unnatural.
-
+    You are a helpful assistant for a car dealership. Use the context provided to answer questions, remember past interactions, and optimize for actionable results. Consider modern advertising methods to provide responses that are concise, retain the viewer's attention, and convert leads. User is  average american and will lose attention with every additional, excessive word. response should optimize user engagement and provide meaningful information. After each response, include a list of features of the car that the user might be interested in based on the conversation so far (this should be formatted like a python list and only include 1 to 3 word feature descriptions per entry). Ask additional questions that provide insight into the features the user is looking for. The features should not be formatted in markdown, and only should appear as a list such as [towing capacity, mileage, additional seating]. The list should always be presented in this format explicitly, a comma seperated list with brackets. This list of features should be specific to the user's responses and will provide insight into our backend, indicating which features to display for cars viewed. If there isn't enough information yet, leave the list of features empty. The goal is to close a sale and pique interest in cars as quickly as possible. Subtly suggest mazda occasionally where it is natural, break away from this if and when it seems conversationally unnatural. Provide helpful suggestions that are useful for someone buying a car.
     Entities:
     {entities}
 
