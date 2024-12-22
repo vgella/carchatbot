@@ -1,0 +1,6 @@
+openai==1.2.3
+transformers==4.33.0
+faiss-cpu==1.7.4
+numpy==1.25.0
+torch==2.0.1
+

@@ -1,0 +1,113 @@
+[
+  {
+    "make": "Toyota",
+    "model": "Camry",
+    "year": 2023,
+    "specifications": {
+      "engine": "2.5L 4-cylinder",
+      "horsepower": 203,
+      "transmission": "8-speed automatic",
+      "fuel_economy": "28 city / 39 highway MPG",
+      "safety_features": ["Toyota Safety Sense 2.5", "Adaptive Cruise Control", "Lane Departure Warning"]
+    },
+    "pricing": "$26,220 starting MSRP",
+    "availability": "In stock",
+    "special_offers": "0% APR financing for 36 months",
+    "test_drive": "Available for scheduling this week",
+    "reviews": "4.8/5 customer rating based on 250 reviews",
+    "comparisons": "Outperforms the Honda Accord in fuel economy."
+  },
+  {
+    "make": "Honda",
+    "model": "Civic",
+    "year": 2022,
+    "specifications": {
+      "engine": "2.0L 4-cylinder",
+      "horsepower": 158,
+      "transmission": "CVT",
+      "fuel_economy": "31 city / 40 highway MPG",
+      "safety_features": ["Honda Sensing", "Collision Mitigation Braking", "Road Departure Mitigation"]
+    },
+    "pricing": "$22,550 starting MSRP",
+    "availability": "Limited availability",
+    "special_offers": "$500 off for first-time buyers",
+    "test_drive": "Available this weekend",
+    "reviews": "4.7/5 customer rating based on 180 reviews",
+    "comparisons": "Slightly more affordable than the Toyota Corolla."
+  },
+  {
+    "make": "Ford",
+    "model": "F-150",
+    "year": 2023,
+    "specifications": {
+      "engine": "3.3L V6",
+      "horsepower": 290,
+      "transmission": "10-speed automatic",
+      "fuel_economy": "20 city / 26 highway MPG",
+      "towing_capacity": "Up to 14,000 lbs",
+      "safety_features": ["Ford Co-Pilot360", "Blind Spot Monitoring", "Rear Cross-Traffic Alert"]
+    },
+    "pricing": "$33,695 starting MSRP",
+    "availability": "In stock",
+    "special_offers": "$1,000 trade-in bonus",
+    "test_drive": "Test drives available on weekdays",
+    "reviews": "4.9/5 customer rating based on 320 reviews",
+    "comparisons": "Leads in towing capacity compared to the Chevy Silverado."
+  },
+  {
+    "make": "Tesla",
+    "model": "Model 3",
+    "year": 2023,
+    "specifications": {
+      "engine": "Electric",
+      "horsepower": 283,
+      "range": "272 miles per full charge",
+      "charging_time": "8.5 hours with Level 2 charger",
+      "safety_features": ["Autopilot", "Automatic Emergency Braking", "360-degree Cameras"]
+    },
+    "pricing": "$42,990 starting MSRP",
+    "availability": "Custom orders only",
+    "special_offers": "Free Supercharging for 6 months",
+    "test_drive": "Available by appointment only",
+    "reviews": "4.9/5 customer rating based on 500 reviews",
+    "comparisons": "Outpaces BMW i4 in acceleration and range."
+  },
+  {
+    "make": "Mazda",
+    "model": "CX-5",
+    "year": 2023,
+    "specifications": {
+      "engine": "2.5L Turbo 4-cylinder",
+      "horsepower": 256,
+      "transmission": "6-speed automatic",
+      "fuel_economy": "24 city / 30 highway MPG",
+      "safety_features": ["Mazda Radar Cruise Control", "Rearview Camera", "Lane Keep Assist"]
+    },
+    "pricing": "$26,700 starting MSRP",
+    "availability": "In stock",
+    "special_offers": "$750 cashback on select trims",
+    "test_drive": "Walk-in test drives welcome",
+    "reviews": "4.7/5 customer rating based on 300 reviews",
+    "comparisons": "Slightly higher horsepower than the Honda CR-V."
+  },
+  {
+    "make": "Jeep",
+    "model": "Grand Cherokee",
+    "year": 2023,
+    "specifications": {
+      "engine": "3.6L V6",
+      "horsepower": 293,
+      "transmission": "8-speed automatic",
+      "fuel_economy": "19 city / 26 highway MPG",
+      "towing_capacity": "Up to 6,200 lbs",
+      "safety_features": ["Adaptive Cruise Control", "Blind Spot Monitoring", "Active Lane Management"]
+    },
+    "pricing": "$41,330 starting MSRP",
+    "availability": "Pre-orders available",
+    "special_offers": "$1,500 loyalty bonus",
+    "test_drive": "Weekend test drives open",
+    "reviews": "4.8/5 customer rating based on 270 reviews",
+    "comparisons": "Comparable towing capacity to the Ford Explorer."
+  }
+]
+
